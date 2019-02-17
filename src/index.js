@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import firebase from 'firebase';
+// import firebase from 'firebase';
 
-const config = {
-    apiKey: '',
-    databaseURL: 'https://tracking-6329f.firebaseio.com/',
-};
-firebase.initializeApp(config);
+// const config = {
+//     apiKey: '',
+//     databaseURL: 'https://tracking-6329f.firebaseio.com/',
+// };
+// firebase.initializeApp(config);
 // const database = firebase.database();
 // database.ref('task').set([1,2,3])
 ReactDOM.render(<App />, document.getElementById('root'));
